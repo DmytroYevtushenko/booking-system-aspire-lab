@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookingSystem.AppHost", "BookingSystem.AppHost\BookingSystem.AppHost.csproj", "{A1011BC2-8577-45A7-853E-87C6657F0917}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookingSystem.ServiceDefaults", "BookingSystem.ServiceDefaults\BookingSystem.ServiceDefaults.csproj", "{631F33EB-B053-4026-BF1D-0BE858BD47B5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "services", "services", "{45C10C2A-1A54-47B5-A8FC-D52587A80497}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "aspire", "aspire", "{2EDBADD3-0C41-4EF7-82E7-EA8F6676AB64}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookingSystem.Booking.Api", "BookingSystem.Booking.Api\BookingSystem.Booking.Api.csproj", "{D8C76B75-BC16-4EE0-B749-243AB55E1EFF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A1011BC2-8577-45A7-853E-87C6657F0917}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1011BC2-8577-45A7-853E-87C6657F0917}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1011BC2-8577-45A7-853E-87C6657F0917}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1011BC2-8577-45A7-853E-87C6657F0917}.Release|Any CPU.Build.0 = Release|Any CPU
+		{631F33EB-B053-4026-BF1D-0BE858BD47B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{631F33EB-B053-4026-BF1D-0BE858BD47B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{631F33EB-B053-4026-BF1D-0BE858BD47B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{631F33EB-B053-4026-BF1D-0BE858BD47B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8C76B75-BC16-4EE0-B749-243AB55E1EFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8C76B75-BC16-4EE0-B749-243AB55E1EFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8C76B75-BC16-4EE0-B749-243AB55E1EFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8C76B75-BC16-4EE0-B749-243AB55E1EFF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A1011BC2-8577-45A7-853E-87C6657F0917} = {2EDBADD3-0C41-4EF7-82E7-EA8F6676AB64}
+		{631F33EB-B053-4026-BF1D-0BE858BD47B5} = {2EDBADD3-0C41-4EF7-82E7-EA8F6676AB64}
+		{D8C76B75-BC16-4EE0-B749-243AB55E1EFF} = {45C10C2A-1A54-47B5-A8FC-D52587A80497}
+	EndGlobalSection
+EndGlobal
