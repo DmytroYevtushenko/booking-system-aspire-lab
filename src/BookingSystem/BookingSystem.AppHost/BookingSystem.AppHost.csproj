@@ -12,4 +12,8 @@
       <ProjectReference Include="..\BookingSystem.Booking.Api\BookingSystem.Booking.Api.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <PackageReference Include="Aspire.Hosting.PostgreSQL" Version="13.1.0" />
+    </ItemGroup>
+
 </Project>
